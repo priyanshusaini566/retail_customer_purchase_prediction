@@ -109,28 +109,8 @@ ensemble model — is a strong hackathon talking point:
 The script automatically picks the better one by ROC-AUC, but printing both
 comparisons is exactly the kind of rigor judges look for.
 
----
 
-## 🎤 How to Present This at the Hackathon (Suggested Flow)
-
-1. **Problem (30 sec):** "E-commerce sites lose sales because they can't tell which
-   visitors are about to buy and which are just browsing. We predict purchase intent
-   in real time from behavior signals."
-2. **Live demo (90 sec):** Open the Streamlit app, use the "Customer A" preset →
-   show high probability. Switch to "Customer B" → show low probability. Then
-   manually tweak sliders live to show the model responding dynamically.
-3. **Model performance (30 sec):** Switch to the "Model Performance" tab — show
-   ROC-AUC ~0.88, confusion matrix, and feature importance (cart activity and
-   previous purchases should dominate — matches business intuition, which judges love).
-4. **Business impact (30 sec):** "This lets marketing teams trigger the right action —
-   a discount nudge for medium-intent users, retargeting ads for low-intent, and
-   leave high-intent users alone to avoid discount leakage."
-5. **Future work (15 sec):** Real clickstream data, real-time scoring via API,
-   A/B testing the interventions, adding recency/time-of-day features.
-
----
-
-## 🔧 Extending This Project (bonus points ideas)
+## 🔧 Extending This Project 
 
 - **Deploy the model as a REST API** with FastAPI/Flask (`predict` endpoint) so it
   could plug into a real website.
