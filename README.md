@@ -6,8 +6,6 @@ time on site, previous visits, cart activity, device type, and purchase history.
 
 **ML Type:** Binary Classification
 **Models:** Logistic Regression vs. Random Forest (best one auto-selected by ROC-AUC)
-**Demo:** Live interactive Streamlit web app
-
 ---
 
 ## 📁 Project Structure
