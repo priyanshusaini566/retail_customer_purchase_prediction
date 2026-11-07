@@ -54,7 +54,7 @@ python train_model.py
 This will:
 - Split data into train/test sets (80/20, stratified)
 - Train **Logistic Regression** and **Random Forest**
-- Print accuracy, precision, recall, F1, and ROC-AUC for both
+- Print accuracy, precision, recall, F1, and ROC for both
 - Auto-select the best model by ROC-AUC
 - Save the trained pipeline to `model/purchase_model.pkl`
 - Save confusion matrix, ROC curve, and feature importance charts
